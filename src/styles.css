@@ -12,7 +12,7 @@ ul {
   display: flex;
   padding-top: 20px;
   text-align: center;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 ul li {
@@ -29,13 +29,78 @@ nav {
   width: 100vw;
   height: 100px;
   position: fixed;
-  background: dodgerblue;
   padding-top: 20px;
   padding-right: 50px;
 }
 
 main {
   width: 100vw;
-  height: 200vh;
-  border: 1px solid dodgerblue;
+  height: 100vh;
+  background-image: url(/assets/background.png);
+  background-size: cover;
+}
+
+img {
+  margin-top: 100px;
+}
+
+.banner {
+  display: flex;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.banner__image {
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.banner__content {
+  width: 450px;
+  height: 500px;
+  margin-top: 200px;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+}
+
+.banner__services {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+button {
+  padding: 10px;
+  width: 150px;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+}
+
+button.primary {
+  background-color: dodgerblue;
+}
+
+button.secondary {
+  background-color: tomato;
+}
+
+button:hover {
+  background-color: white;
+  color: dodgerblue;
 }
